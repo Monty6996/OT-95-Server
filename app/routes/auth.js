@@ -74,16 +74,16 @@ module.exports = router;
  *            properties:
  *              firstName:
  *                type: string
- *                example: Jimena
+ *                example: Manuel
  *              lastName:
  *                type: string
- *                example: Sanchez
+ *                example: Montañana
  *              email:
  *                type: string
- *                example: user123@gmail.com
+ *                example: manuelmontanana57@gmail.com
  *              password:
  *                type: string
- *                example: pa55w0rd
+ *                example: 123456
  *              image:
  *                type: string
  *                format: binary
