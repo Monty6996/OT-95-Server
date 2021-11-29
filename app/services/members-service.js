@@ -8,7 +8,7 @@ module.exports = {
   },
 
   getAll: async (page, url) => {
-    const limit = 10;
+    const limit = 5;
     const offset = limit * (page - 1);
     const { count, rows } = await membersRepository.getAll(offset, limit);
     const pages = Math.ceil(count / limit);
