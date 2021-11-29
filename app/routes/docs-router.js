@@ -16,8 +16,10 @@ const swaggerDefinition = {
       url: 'http://localhost:3000/api',
       description: 'Development server'
     },
+    {
       url: 'https://ong-alkemy.herokuapp.com/api',
       description: 'Production server'
+    },
   ],
   components: {
     securitySchemes: {
