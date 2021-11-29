@@ -56,16 +56,16 @@ module.exports = router;
  *         properties:
  *           name:
  *             type: string
- *             example: "John Doe"
+ *             example: "Manuel Montañana"
  *           email:
  *             type: string
- *             example: "admin@admin.com"
+ *             example: "manuelmontanana57@gmail.com"
  *           phone:
  *             type: string
  *             example: "123456789"
  *           message:
  *             type: string
- *             example: "Hello, I am John Doe and I would like to contact you."
+ *             example: "Hola! Me gustaria comunicarme con ustedes"
  *
  * /contacts:
  *   get:
