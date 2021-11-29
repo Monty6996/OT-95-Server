@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 
 const router = express.Router();
 const swaggerJSDoc = require('swagger-jsdoc');
@@ -14,7 +15,9 @@ const swaggerDefinition = {
     {
       url: 'http://localhost:3000/api',
       description: 'Development server'
-    }
+    },
+      url: process.env.URL,
+      description: 'Production server'
   ],
   components: {
     securitySchemes: {
